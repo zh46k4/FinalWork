@@ -1,0 +1,16 @@
+﻿  Source.c
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(14,8): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(45,5): error C2084: функция "int main()" уже имеет текст реализации
+      C:\Users\Alex\Desktop\Project1\Project1\Source.c(6,5):
+      см. предыдущее определение "main"
+  
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(50,8): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(54,10): error C2057: требуется константное выражение
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(54,10): error C2466: невозможно выделить память для массива постоянного нулевого размера
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(54,13): error C2057: требуется константное выражение
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(54,13): error C2466: невозможно выделить память для массива постоянного нулевого размера
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(54,6): error C2087: arr: отсутствует индекс
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(54,6): error C2133: arr: неизвестный размер
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(57,12): error C2057: требуется константное выражение
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(57,12): error C2466: невозможно выделить память для массива постоянного нулевого размера
+C:\Users\Alex\Desktop\Project1\Project1\Source.c(57,6): error C2133: count: неизвестный размер
