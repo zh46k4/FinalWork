@@ -6,32 +6,32 @@
 int main() {
 
 	setlocale(LC_ALL, "Rus");
-	int a[20];
+	int al[20];
 	int i;
 	int m1, m2;
 
 	srand(42);
 	srand(time(NULL));
 
-	printf("Старый массив :\n");
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ :\n");
 
 	for (int i = 0; i < 20; i++) {
-		a[i] = rand() % 1000 - 500;
-		printf("%d\n", a[i]);
+		al[i] = rand() % 1000 - 500;
+		printf("%d\n", al[i]);
 	}
 
 	getchar();
 
-	printf("Измененный массив :\n");
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ :\n");
 
-	m1 = a[0];
-	m2 = a[1];
+	m1 = al[0];
+	m2 = al[1];
 
 	for (i = 0; i < 20; i++) {
-		if (a[i] > 0)
-			printf("%d\n", a[i] + m1);
+		if (al[i] > 0)
+			printf("%d\n", al[i] + m1);
 		else
-			printf("%d\n", a[i] + m2);
+			printf("%d\n", al[i] + m2);
 	}
 
 	return 0;
@@ -52,18 +52,18 @@ int main()
 	const int m = 10;
 	const int n = 10;
 	int arr[m][n];
-	int a = rand() % 9 + 2;
+	int al = rand() % 9 + 2;
 	int b = rand() % 9 + 2;
 	int count[n];
 
-	printf("Два случайных числа :\n");
+	printf("пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ :\n");
 
-	printf("%d\n", a);
+	printf("%d\n", al);
 	printf("%d\n", b);
 
 	getchar();
 
-	printf("Двумерный массив :\n");
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ :\n");
 
 	for (int i = 0; i < m; i++)
 	{
@@ -84,14 +84,14 @@ int main()
 	}
 
 	getchar();
-	printf("Количество элементов в каждом столбце, которые удовлетворяют условию : ");
+	printf("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ : ");
 
 	for (int j = 0; j < n; j++)
 	{
 		count[j] = 0;
 		for (int i = 0; i < m; i++)
 		{
-			if ((arr[i][j] % a == 0) || (arr[i][j] % b == 0))
+			if ((arr[i][j] % al == 0) || (arr[i][j] % b == 0))
 			{
 				count[j] += 1;
 			}
